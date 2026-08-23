@@ -1,6 +1,7 @@
 import os
+from pathlib import Path
 
-CWD = os.getcwd()
+CWD = Path.cwd().resolve().parent
 
 # MAIN DIRECTORIES
 DATA_DIR = os.path.join(CWD, "data")
