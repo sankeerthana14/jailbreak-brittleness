@@ -35,7 +35,7 @@ def parse_args():
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("data/processed"),
+        default=Path("datasets/processed"),
         help="Directory in which processed datasets will be saved.",
     )
 
